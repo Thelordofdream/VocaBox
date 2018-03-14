@@ -199,6 +199,11 @@
 					687D7DE41FAA2875001E0A17 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					687D7DFA1FAA2875001E0A17 = {
 						CreatedOnToolsVersion = 9.1;

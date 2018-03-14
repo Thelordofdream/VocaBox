@@ -16,10 +16,26 @@
     __weak IBOutlet NSTextField *keyword;
     __weak IBOutlet NSTextField *result;
     __weak IBOutlet NSTextField *amount;
+    __weak IBOutlet NSTextField *source;
     NSString *fileDicPath;
+    
     NSMutableDictionary *dic;
     NSArray *keys;
+    
+    NSString *key;
+    NSString *res;
+    
     NSComparator sort;
+    
+    NSString *url;
+    NSString *sign;
+    NSURL *URL;
+    
+    NSURLRequest *request;
+    NSData *baidu;
+    NSDictionary *BAIDU;
 }
+
+
 @end
 
